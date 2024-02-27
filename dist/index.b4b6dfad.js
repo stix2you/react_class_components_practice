@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"cGwEu":[function(require,module,exports) {
+})({"7B5FO":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -578,9 +578,9 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
-},{}],"3G56m":[function(require,module,exports) {
-var Refresh = require("5a09bf572737a98b");
-var ErrorOverlay = require("987c3f663866e41e");
+},{}],"gvEug":[function(require,module,exports) {
+var Refresh = require("994ef35a8b3e2fb3");
+var ErrorOverlay = require("694ce132c14243cf");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -599,11 +599,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"5a09bf572737a98b":"12gP3","987c3f663866e41e":"jEC7b"}],"12gP3":[function(require,module,exports) {
+},{"994ef35a8b3e2fb3":"eP0xe","694ce132c14243cf":"96aGg"}],"eP0xe":[function(require,module,exports) {
 "use strict";
-module.exports = require("96a269a6903f7716");
+module.exports = require("56ce0ed0a141a3f2");
 
-},{"96a269a6903f7716":"iVeay"}],"iVeay":[function(require,module,exports) {
+},{"56ce0ed0a141a3f2":"2EdXx"}],"2EdXx":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -1063,8 +1063,8 @@ module.exports = require("96a269a6903f7716");
     exports.setSignature = setSignature;
 })();
 
-},{}],"jEC7b":[function(require,module,exports) {
-var process = require("ce35d13274ff663");
+},{}],"96aGg":[function(require,module,exports) {
+var process = require("2d7a91aee9140773");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2794,7 +2794,7 @@ var process = require("ce35d13274ff663");
     ]);
 });
 
-},{"ce35d13274ff663":"82dki"}],"82dki":[function(require,module,exports) {
+},{"2d7a91aee9140773":"d5jf4"}],"d5jf4":[function(require,module,exports) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -2975,7 +2975,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/hello/hello":"aoxLv","./index.scss":"lJZlQ","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"cpOWO"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/hello/hello":"aoxLv","./index.scss":"lJZlQ","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"diTcA"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27223,7 +27223,7 @@ class Hello extends (0, _reactDefault.default).Component {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"2BZ6I","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"cpOWO"}],"2BZ6I":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"3Qu8A","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"diTcA"}],"3Qu8A":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27253,9 +27253,9 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"cpOWO":[function(require,module,exports) {
+},{}],"diTcA":[function(require,module,exports) {
 "use strict";
-var Refresh = require("a83bc600b7665e47");
+var Refresh = require("32b195d7dda7df75");
 function debounce(func, delay) {
     {
         let timeout = undefined;
@@ -27391,6 +27391,6 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"a83bc600b7665e47":"12gP3"}],"lJZlQ":[function() {},{}]},["cGwEu","3G56m","d8Dch"], "d8Dch", "parcelRequire5b68")
+},{"32b195d7dda7df75":"eP0xe"}],"lJZlQ":[function() {},{}]},["7B5FO","gvEug","d8Dch"], "d8Dch", "parcelRequire5b68")
 
 //# sourceMappingURL=index.b4b6dfad.js.map
