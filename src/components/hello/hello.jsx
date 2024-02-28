@@ -31,8 +31,7 @@ export class Hello extends React.Component {   // Hello is initialized with an o
     render() {                                // render() method is called to display the current date and time
         return (
             <h1>
-                Hello, {this.props.name}! The time is:
-                {this.state.currentDate.toLocaleTimeString()}
+                Hello, {this.props.name}! The time is: {this.state.currentDate.toLocaleTimeString()}
             </h1>                // this.state.currentDate.toLocaleTimeString() is called to display the current time
         );
     }

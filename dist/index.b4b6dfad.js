@@ -579,8 +579,8 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"3G56m":[function(require,module,exports) {
-var Refresh = require("5a09bf572737a98b");
-var ErrorOverlay = require("987c3f663866e41e");
+var Refresh = require("479f6e717adfbeef");
+var ErrorOverlay = require("3a5647ebfb8ba8b9");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -599,11 +599,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"5a09bf572737a98b":"12gP3","987c3f663866e41e":"jEC7b"}],"12gP3":[function(require,module,exports) {
+},{"479f6e717adfbeef":"12gP3","3a5647ebfb8ba8b9":"jEC7b"}],"12gP3":[function(require,module,exports) {
 "use strict";
-module.exports = require("96a269a6903f7716");
+module.exports = require("2d4231efd697a810");
 
-},{"96a269a6903f7716":"iVeay"}],"iVeay":[function(require,module,exports) {
+},{"2d4231efd697a810":"iVeay"}],"iVeay":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -1064,7 +1064,7 @@ module.exports = require("96a269a6903f7716");
 })();
 
 },{}],"jEC7b":[function(require,module,exports) {
-var process = require("ce35d13274ff663");
+var process = require("fbabed07af8db48f");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2794,7 +2794,7 @@ var process = require("ce35d13274ff663");
     ]);
 });
 
-},{"ce35d13274ff663":"82dki"}],"82dki":[function(require,module,exports) {
+},{"fbabed07af8db48f":"82dki"}],"82dki":[function(require,module,exports) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -27206,7 +27206,7 @@ class Hello extends (0, _reactDefault.default).Component {
             children: [
                 "Hello, ",
                 this.props.name,
-                "! The time is:",
+                "! The time is: ",
                 this.state.currentDate.toLocaleTimeString()
             ]
         }, void 0, true, {
@@ -27255,7 +27255,7 @@ exports.export = function(dest, destName, get) {
 
 },{}],"cpOWO":[function(require,module,exports) {
 "use strict";
-var Refresh = require("a83bc600b7665e47");
+var Refresh = require("59c461bc82c5bed5");
 function debounce(func, delay) {
     {
         let timeout = undefined;
@@ -27391,6 +27391,6 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"a83bc600b7665e47":"12gP3"}],"lJZlQ":[function() {},{}]},["cGwEu","3G56m","d8Dch"], "d8Dch", "parcelRequire5b68")
+},{"59c461bc82c5bed5":"12gP3"}],"lJZlQ":[function() {},{}]},["cGwEu","3G56m","d8Dch"], "d8Dch", "parcelRequire5b68")
 
 //# sourceMappingURL=index.b4b6dfad.js.map
